@@ -97,3 +97,19 @@ p {
 .melt .drip2 {
   height: 30px;
 }
+
+/* RETAK */
+.crack::before {
+  content: "";
+  position: absolute;
+  width: 3px;
+  height: 100%;
+  background: rgba(255,255,255,0.4);
+  left: 50%;
+  top: 0;
+}
+
+/* BELAH */
+.break {
+  transform: scale(0.9) rotate(5deg);
+}
