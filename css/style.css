@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.soft-bg {
+  background: linear-gradient(#ffd6e8, #fff);
+}
+
+h1, h2 {
+  color: #c94f7c;
+}
+
+p {
+  color: #555;
+  max-width: 280px;
+}
+
+.hint {
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+/* BUTTON */
+.btn {
+  margin-top: 20px;
+  padding: 12px 26px;
+  background: #ff7aa2;
+  color: white;
+  text-decoration: none;
+  border-radius: 25px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #ff4f87;
+}
+
+/* FOTO */
+.photo {
+  width: 220px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+/* COKLAT */
+.chocolate-box {
+  width: 160px;
+  height: 160px;
+  background: linear-gradient(#5a2d0c, #3b1d0a);
+  border-radius: 20px;
+  position: relative;
+  cursor: pointer;
+  transition: 1.2s ease;
+}
+
+/* LELEHAN */
+.drip {
+  position: absolute;
+  bottom: -5px;
+  left: 30px;
+  width: 18px;
+  height: 0;
+  background: #3b1d0a;
+  border-radius: 10px;
+  transition: height 1.2s;
+}
+
+.drip2 {
+  left: 90px;
+  width: 14px;
+}
+
+/* SAAT DIKLIK */
+.melt {
+  transform: translateY(40px) scale(0.94);
+  opacity: 0.75;
+}
+
+.melt .drip {
+  height: 45px;
+}
+
+.melt .drip2 {
+  height: 30px;
+}
