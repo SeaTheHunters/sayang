@@ -113,3 +113,10 @@ p {
 .break {
   transform: scale(0.9) rotate(5deg);
 }
+
+@keyframes fall {
+  to {
+    transform: translateY(100vh);
+    opacity: 0;
+  }
+}
