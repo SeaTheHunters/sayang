@@ -16,6 +16,20 @@
     Buka Hadiah 💸
   </a>
 
+  <script>
+for (let i = 0; i < 20; i++) {
+  const heart = document.createElement("div");
+  heart.innerHTML = "💖";
+  heart.style.position = "fixed";
+  heart.style.left = Math.random() * 100 + "vw";
+  heart.style.top = "-20px";
+  heart.style.fontSize = "24px";
+  heart.style.animation = "fall 3s linear infinite";
+  document.body.appendChild(heart);
+}
+</script>
+
 </body>
 </html>
+
 
